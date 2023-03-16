@@ -1,0 +1,48 @@
+.zoho_content_container {
+  width: auto;
+  max-width: 1800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 2rem 10rem 2rem;
+  h5 {
+    margin: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: right;
+    color: #000000;
+    // max-width: 1414px;
+  }
+  .description_1 {
+    padding-left: 19rem;
+  }
+  .description_2 {
+    padding-left: 8rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .zoho_content_container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    h5 {
+      font-size: 25px;
+      line-height: 44px;
+      padding: 0 !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .zoho_content_container {
+    padding: 2rem 1rem 2rem 1rem;
+    h5 {
+      font-size: 18px;
+      line-height: 35px;
+    }
+  }
+}

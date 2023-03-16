@@ -1,0 +1,28 @@
+.navbar_container {
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem;
+  max-width: 1300px;
+  margin: auto;
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+    img {
+      width: 40.02px;
+      height: 40.02px;
+      object-fit: contain;
+      display: block;
+    }
+    h5 {
+      margin: 0;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 34px;
+      color: #452820;
+    }
+  }
+}

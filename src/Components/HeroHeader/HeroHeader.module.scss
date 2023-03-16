@@ -1,0 +1,104 @@
+.main_hero_header_container {
+  padding: 0 1rem;
+  .hero_header_container {
+    //   width: 100%;
+    //   height: auto;
+    max-width: 1800px;
+    min-height: 695px;
+    background: #312439;
+    border-radius: 41px;
+    padding: 4rem 2rem;
+    margin: auto;
+    position: relative;
+    .over_lay_image_container {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      img {
+        width: 100%;
+        height: 100%;
+        // width: 756px;
+        // height: 571px;
+        max-width: 756px;
+        display: block;
+        object-fit: contain;
+        position: relative;
+        z-index: 0;
+      }
+    }
+    .auto_container {
+      max-width: 1300px;
+      margin: auto;
+      .title_container {
+        margin-top: 7rem;
+        color: #ffffff;
+        //   margin-left: 8rem;
+        h2 {
+          margin: 0;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 55px;
+          line-height: 82px;
+          color: #ffffff;
+          position: relative;
+          z-index: 10;
+        }
+        p {
+          margin: 10px 0 0 0;
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 120%;
+          color: #ffffff;
+          z-index: 10;
+          opacity: 0.8;
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main_hero_header_container {
+    .hero_header_container {
+      min-height: 100%;
+      // padding: 2rem 1rem;
+      padding: 4rem 1rem;
+      .over_lay_image_container {
+        display: none;
+      }
+      .auto_container {
+        .title_container {
+          margin-top: 0;
+          h2 {
+            font-size: 30px;
+            line-height: 160%;
+          }
+          p {
+            // max-width: 60%;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main_hero_header_container {
+    .hero_header_container {
+      .auto_container {
+        .title_container {
+          h2 {
+            font-size: 25px;
+            line-height: 140%;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

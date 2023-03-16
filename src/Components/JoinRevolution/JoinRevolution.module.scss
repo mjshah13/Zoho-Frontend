@@ -1,0 +1,100 @@
+.join_revolution_container {
+  width: auto;
+  height: auto;
+  margin-top: 3rem;
+  max-width: 1300px;
+  padding: 0 2rem;
+  margin: auto;
+  position: relative;
+  bottom: 10.5rem;
+  h2 {
+    margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+    color: #ffffff;
+  }
+  .join_container {
+    background: #ffffff;
+    box-shadow: 0px 12px 41px rgba(0, 0, 0, 0.06);
+    border-radius: 26px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    .input_container {
+      width: 100%;
+      label {
+        display: block;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #181c23;
+        margin-bottom: 1rem;
+      }
+      input {
+        width: 100%;
+        max-width: 266px;
+        display: block;
+        border: none;
+        border-bottom: 0.5px solid rgba(147, 147, 147, 0.13);
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #939393;
+        padding: 5px 10px;
+      }
+    }
+    .button_container {
+      button {
+        width: 190px;
+        height: 49px;
+        background: #ebbe07;
+        border-radius: 11px;
+        border: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .join_revolution_container {
+    bottom: 0;
+    margin-top: 2rem;
+    h2 {
+      color: #181c23;
+      font-size: 30px;
+      line-height: 160%;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .join_revolution_container {
+    padding: 0 1rem;
+    h2 {
+      text-align: center;
+      font-size: 25px;
+      line-height: 140%;
+    }
+    .join_container {
+      padding: 2rem 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
+}
